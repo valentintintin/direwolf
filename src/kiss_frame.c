@@ -612,6 +612,8 @@ void kiss_process_msg (unsigned char *kiss_msg, int kiss_len, int debug, int cli
 	       dw_printf ("ERROR - Invalid KISS data frame from client app.\n");
 	    }
 	    else {
+            dlq_rec_frame(port, 0, 0, pp, alevel, 0, 0, NULL);
+            break;
 
 	      /* How can we determine if it is an original or repeated message? */
 	      /* If there is at least one digipeater in the frame, AND */

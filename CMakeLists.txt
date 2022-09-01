@@ -6,7 +6,7 @@ project(direwolf)
 set(direwolf_VERSION_MAJOR "1")
 set(direwolf_VERSION_MINOR "6")
 set(direwolf_VERSION_PATCH "0")
-set(direwolf_VERSION_SUFFIX "")
+set(direwolf_VERSION_SUFFIX "F4HVV")
 
 # options
 option(FORCE_SSE "Compile with SSE instruction only" OFF)
